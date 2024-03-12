@@ -8,6 +8,7 @@ public class Photo {
     @NotEmpty
     private String fileName;
 
+    @JsonIgnore
     private byte[] data;
 
 
