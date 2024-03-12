@@ -1,5 +1,6 @@
-package com.jetbrains.abdul.photos.clone;
+package com.jetbrains.abdul.photos.clone.service;
 
+import com.jetbrains.abdul.photos.clone.model.Photo;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;

@@ -1,5 +1,7 @@
-package com.jetbrains.abdul.photos.clone;
+package com.jetbrains.abdul.photos.clone.web;
 
+import com.jetbrains.abdul.photos.clone.model.Photo;
+import com.jetbrains.abdul.photos.clone.service.PhotosService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

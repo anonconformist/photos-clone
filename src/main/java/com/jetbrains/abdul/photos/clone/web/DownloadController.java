@@ -1,5 +1,7 @@
-package com.jetbrains.abdul.photos.clone;
+package com.jetbrains.abdul.photos.clone.web;
 
+import com.jetbrains.abdul.photos.clone.model.Photo;
+import com.jetbrains.abdul.photos.clone.service.PhotosService;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
