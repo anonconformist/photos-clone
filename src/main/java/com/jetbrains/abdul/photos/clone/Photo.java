@@ -2,15 +2,15 @@ package com.jetbrains.abdul.photos.clone;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.validation.constraints.NotEmpty;
+import jdk.jfr.ContentType;
 
 public class Photo {
     private String id;
     @NotEmpty
     private String fileName;
-
     @JsonIgnore
     private byte[] data;
-
+    private String ContentType;
 
     public Photo() {
     }
@@ -43,5 +43,13 @@ public class Photo {
 
     public void setData(byte[] data) {
         this.data = data;
+    }
+
+    public String getContentType() {
+        return ContentType;
+    }
+
+    public void setContentType(String contentType) {
+        ContentType = contentType;
     }
 }
